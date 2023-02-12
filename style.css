@@ -1,0 +1,46 @@
+body {
+    background-color: #393E46;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+
+h1 {
+    padding-top: 2rem;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 5rem;
+    color: #1eb178;
+}
+
+h2{
+    color: aliceblue;
+}
+
+p{
+    font-size: 2rem;
+    color: #1eb178;
+}
+
+.img{
+    width: 300px;
+    height: 300px;
+}
+
+.btn{
+    margin-top: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media (max-width: 500px){
+    h1{
+        font-size: 2rem;
+    }
+
+    .img{
+        width: 180px;
+        height: 180px;
+    }
+    .dice{
+        padding: 0%;
+    }
+}
